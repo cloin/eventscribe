@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  frontend:
+    build: ./client
+    ports:
+      - "3330:3330"
+    environment:
+      - TZ=America/New_York
+
+  backend:
+    build: ./server
+    ports:
+      - "3331:3331"
+    environment:
+      - TZ=America/New_York
