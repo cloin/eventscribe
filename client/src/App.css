@@ -4,15 +4,22 @@
 }
 
 .left-pane {
-  width: 30%;
+  width: 20%;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.middle-pane {
+  width: 45%;
   border-right: 1px solid #ccc;
   overflow-y: auto;
   padding: 10px;
 }
 
 .right-pane {
-  width: 70%;
-  padding: 20px;
+  width: 35%;
+  padding: 10px;
   overflow-y: auto;
 }
 
@@ -43,4 +50,56 @@
 
 .checkbox-label {
   margin-right: 10px;
+}
+
+.rule-creator {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+}
+
+.rule-creator input, 
+.rule-creator select, 
+.rule-creator button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.toggle-pane-button {
+  background-color: #f0f0f0;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.toggle-pane-button:hover {
+  background-color: #e0e0e0;
 }
