@@ -4,7 +4,7 @@ EventScribe is a development tool designed for Event-Driven Ansible (EDA). The a
 
 When used in conjunction with the EDA event filter, [`cloin.eda.poster`](https://github.com/cloin/cloin.eda/blob/main/extensions/eda/plugins/event_filter/poster.py), you're able to capture the event structure before having written any rules thus helping to gain familiarity with the event structure and rapidly write conditions.
 
-![EventScribe UI](./docs/screenshot.png)
+![EventScribe UI](./docs/screenshot-main.png)
 
 ## Features
 
